@@ -1,0 +1,16 @@
+{"room_id": "salon", "status": "executed", "world": {"lux": 35.0, "occupied": true, "time_bucket": "night"}, "plan": {"decision": "turn_on", "reason": "Presence detected with low ambient light (35.0 lux)."}}
+{"room_id": "dormitorio", "status": "noop", "world": {"lux": 60.0, "occupied": false, "time_bucket": "night"}, "plan": {"decision": "do_nothing", "reason": "Room is unoccupied but absence delay has not elapsed yet."}}
+{"room_id": "pasillo", "status": "noop", "world": {"lux": 25.0, "occupied": false, "time_bucket": "night"}, "plan": {"decision": "do_nothing", "reason": "Room is unoccupied but absence delay has not elapsed yet."}}
+{"room_id": "salon", "status": "executed", "world": {"lux": 10.0, "occupied": true, "time_bucket": "night"}, "plan": {"decision": "turn_on", "reason": "Presence detected with low ambient light (10.0 lux)."}}
+{"room_id": "dormitorio", "status": "executed", "world": {"lux": 10.0, "occupied": true, "time_bucket": "night"}, "plan": {"decision": "turn_on", "reason": "Presence detected with low ambient light (10.0 lux)."}}
+{"room_id": "pasillo", "status": "noop", "world": {"lux": 25.0, "occupied": false, "time_bucket": "night"}, "plan": {"decision": "do_nothing", "reason": "Room is unoccupied but absence delay has not elapsed yet."}}
+{"room_id": "salon", "status": "executed", "world": {"lux": 35.0, "occupied": false, "time_bucket": "night"}, "plan": {"decision": "turn_off", "reason": "Room has been unoccupied for at least the configured absence window."}}
+{"room_id": "dormitorio", "status": "noop", "world": {"lux": 10.0, "occupied": true, "time_bucket": "night"}, "plan": {"decision": "do_nothing", "reason": "Current lighting already matches context."}}
+{"room_id": "pasillo", "status": "noop", "world": {"lux": 25.0, "occupied": false, "time_bucket": "night"}, "plan": {"decision": "do_nothing", "reason": "Room is unoccupied but absence delay has not elapsed yet."}}
+{"room_id": "dormitorio", "status": "learned_preference", "time_bucket": "night", "new_preference": 21, "observed_brightness": 12}
+{"room_id": "salon", "status": "blocked", "policy_reason": "Cooldown period has not elapsed since last agent action."}
+{"room_id": "dormitorio", "status": "blocked", "policy_reason": "Manual override occurred recently; agent is temporarily suspended."}
+{"room_id": "pasillo", "status": "noop", "world": {"lux": 25.0, "occupied": false, "time_bucket": "night"}, "plan": {"decision": "do_nothing", "reason": "Room is unoccupied but absence delay has not elapsed yet."}}
+{"room_id": "salon", "status": "noop", "world": {"lux": 35.0, "occupied": false, "time_bucket": "night"}, "plan": {"decision": "do_nothing", "reason": "Room is unoccupied but absence delay has not elapsed yet."}}
+{"room_id": "dormitorio", "status": "executed", "world": {"lux": 5.0, "occupied": true, "time_bucket": "night"}, "plan": {"decision": "turn_on", "reason": "Presence detected with low ambient light (5.0 lux)."}}
+{"room_id": "pasillo", "status": "noop", "world": {"lux": 25.0, "occupied": false, "time_bucket": "night"}, "plan": {"decision": "do_nothing", "reason": "Room is unoccupied but absence delay has not elapsed yet."}}
