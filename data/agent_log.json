@@ -1,0 +1,1068 @@
+{
+    "room_id": "salon",
+    "status": "executed",
+    "world": {
+        "room_id": "salon",
+        "occupied": true,
+        "occupied_confidence": 0.9,
+        "lux": 35.0,
+        "time_bucket": "night",
+        "light_state": {
+            "is_on": false,
+            "brightness": 0
+        },
+        "preferred_brightness": {
+            "morning": 60,
+            "afternoon": 70,
+            "night": 25
+        },
+        "last_manual_override_ts": null,
+        "last_action_ts": null,
+        "absence_since_ts": null,
+        "now": "2026-03-08T21:00:00"
+    },
+    "plan": {
+        "room_id": "salon",
+        "decision": "turn_on",
+        "reason": "Presence detected with low ambient light (35.0 lux).",
+        "actions": [
+            {
+                "tool": "set_room_lights",
+                "args": {
+                    "room_id": "salon",
+                    "on": true,
+                    "brightness": 25
+                }
+            }
+        ]
+    },
+    "results": [
+        {
+            "ok": true,
+            "room_id": "salon",
+            "results": [
+                {
+                    "ok": true,
+                    "room_id": "salon",
+                    "device_id": "light_salon_main",
+                    "state": {
+                        "is_on": true,
+                        "brightness": 25
+                    }
+                }
+            ]
+        }
+    ]
+}
+{
+    "room_id": "dormitorio",
+    "status": "noop",
+    "world": {
+        "room_id": "dormitorio",
+        "occupied": false,
+        "occupied_confidence": 0.1,
+        "lux": 60.0,
+        "time_bucket": "night",
+        "light_state": {
+            "is_on": false,
+            "brightness": 0
+        },
+        "preferred_brightness": {
+            "morning": 60,
+            "afternoon": 70,
+            "night": 25
+        },
+        "last_manual_override_ts": null,
+        "last_action_ts": null,
+        "absence_since_ts": null,
+        "now": "2026-03-08T21:00:00"
+    },
+    "plan": {
+        "room_id": "dormitorio",
+        "decision": "do_nothing",
+        "reason": "Room is unoccupied but absence delay has not elapsed yet.",
+        "actions": []
+    },
+    "results": []
+}
+{
+    "room_id": "pasillo",
+    "status": "noop",
+    "world": {
+        "room_id": "pasillo",
+        "occupied": false,
+        "occupied_confidence": 0.1,
+        "lux": 25.0,
+        "time_bucket": "night",
+        "light_state": {
+            "is_on": false,
+            "brightness": 0
+        },
+        "preferred_brightness": {
+            "morning": 60,
+            "afternoon": 70,
+            "night": 25
+        },
+        "last_manual_override_ts": null,
+        "last_action_ts": null,
+        "absence_since_ts": null,
+        "now": "2026-03-08T21:00:00"
+    },
+    "plan": {
+        "room_id": "pasillo",
+        "decision": "do_nothing",
+        "reason": "Room is unoccupied but absence delay has not elapsed yet.",
+        "actions": []
+    },
+    "results": []
+}
+{
+    "room_id": "salon",
+    "status": "noop",
+    "world": {
+        "room_id": "salon",
+        "occupied": true,
+        "occupied_confidence": 0.9,
+        "lux": 35.0,
+        "time_bucket": "night",
+        "light_state": {
+            "is_on": true,
+            "brightness": 25
+        },
+        "preferred_brightness": {
+            "morning": 60,
+            "afternoon": 70,
+            "night": 25
+        },
+        "last_manual_override_ts": null,
+        "last_action_ts": "2026-03-08T21:00:00",
+        "absence_since_ts": null,
+        "now": "2026-03-08T21:02:00"
+    },
+    "plan": {
+        "room_id": "salon",
+        "decision": "do_nothing",
+        "reason": "Current lighting already matches context.",
+        "actions": []
+    },
+    "results": []
+}
+{
+    "room_id": "dormitorio",
+    "status": "executed",
+    "world": {
+        "room_id": "dormitorio",
+        "occupied": true,
+        "occupied_confidence": 0.9,
+        "lux": 10.0,
+        "time_bucket": "night",
+        "light_state": {
+            "is_on": false,
+            "brightness": 0
+        },
+        "preferred_brightness": {
+            "morning": 60,
+            "afternoon": 70,
+            "night": 25
+        },
+        "last_manual_override_ts": null,
+        "last_action_ts": null,
+        "absence_since_ts": null,
+        "now": "2026-03-08T21:02:00"
+    },
+    "plan": {
+        "room_id": "dormitorio",
+        "decision": "turn_on",
+        "reason": "Presence detected with low ambient light (10.0 lux).",
+        "actions": [
+            {
+                "tool": "set_room_lights",
+                "args": {
+                    "room_id": "dormitorio",
+                    "on": true,
+                    "brightness": 25
+                }
+            }
+        ]
+    },
+    "results": [
+        {
+            "ok": true,
+            "room_id": "dormitorio",
+            "results": [
+                {
+                    "ok": true,
+                    "room_id": "dormitorio",
+                    "device_id": "light_bedroom_main",
+                    "state": {
+                        "is_on": true,
+                        "brightness": 25
+                    }
+                }
+            ]
+        }
+    ]
+}
+{
+    "room_id": "pasillo",
+    "status": "noop",
+    "world": {
+        "room_id": "pasillo",
+        "occupied": false,
+        "occupied_confidence": 0.1,
+        "lux": 25.0,
+        "time_bucket": "night",
+        "light_state": {
+            "is_on": false,
+            "brightness": 0
+        },
+        "preferred_brightness": {
+            "morning": 60,
+            "afternoon": 70,
+            "night": 25
+        },
+        "last_manual_override_ts": null,
+        "last_action_ts": null,
+        "absence_since_ts": null,
+        "now": "2026-03-08T21:02:00"
+    },
+    "plan": {
+        "room_id": "pasillo",
+        "decision": "do_nothing",
+        "reason": "Room is unoccupied but absence delay has not elapsed yet.",
+        "actions": []
+    },
+    "results": []
+}
+{
+    "room_id": "salon",
+    "status": "executed",
+    "world": {
+        "room_id": "salon",
+        "occupied": false,
+        "occupied_confidence": 0.1,
+        "lux": 35.0,
+        "time_bucket": "night",
+        "light_state": {
+            "is_on": true,
+            "brightness": 25
+        },
+        "preferred_brightness": {
+            "morning": 60,
+            "afternoon": 70,
+            "night": 25
+        },
+        "last_manual_override_ts": null,
+        "last_action_ts": "2026-03-08T21:00:00",
+        "absence_since_ts": "2026-03-08T21:02:00",
+        "now": "2026-03-08T21:06:00"
+    },
+    "plan": {
+        "room_id": "salon",
+        "decision": "turn_off",
+        "reason": "Room has been unoccupied for at least the configured absence window.",
+        "actions": [
+            {
+                "tool": "set_room_lights",
+                "args": {
+                    "room_id": "salon",
+                    "on": false
+                }
+            }
+        ]
+    },
+    "results": [
+        {
+            "ok": true,
+            "room_id": "salon",
+            "results": [
+                {
+                    "ok": true,
+                    "room_id": "salon",
+                    "device_id": "light_salon_main",
+                    "state": {
+                        "is_on": false,
+                        "brightness": 0
+                    }
+                }
+            ]
+        }
+    ]
+}
+{
+    "room_id": "dormitorio",
+    "status": "noop",
+    "world": {
+        "room_id": "dormitorio",
+        "occupied": true,
+        "occupied_confidence": 0.9,
+        "lux": 10.0,
+        "time_bucket": "night",
+        "light_state": {
+            "is_on": true,
+            "brightness": 25
+        },
+        "preferred_brightness": {
+            "morning": 60,
+            "afternoon": 70,
+            "night": 25
+        },
+        "last_manual_override_ts": null,
+        "last_action_ts": "2026-03-08T21:02:00",
+        "absence_since_ts": null,
+        "now": "2026-03-08T21:06:00"
+    },
+    "plan": {
+        "room_id": "dormitorio",
+        "decision": "do_nothing",
+        "reason": "Current lighting already matches context.",
+        "actions": []
+    },
+    "results": []
+}
+{
+    "room_id": "pasillo",
+    "status": "noop",
+    "world": {
+        "room_id": "pasillo",
+        "occupied": false,
+        "occupied_confidence": 0.1,
+        "lux": 25.0,
+        "time_bucket": "night",
+        "light_state": {
+            "is_on": false,
+            "brightness": 0
+        },
+        "preferred_brightness": {
+            "morning": 60,
+            "afternoon": 70,
+            "night": 25
+        },
+        "last_manual_override_ts": null,
+        "last_action_ts": null,
+        "absence_since_ts": null,
+        "now": "2026-03-08T21:06:00"
+    },
+    "plan": {
+        "room_id": "pasillo",
+        "decision": "do_nothing",
+        "reason": "Room is unoccupied but absence delay has not elapsed yet.",
+        "actions": []
+    },
+    "results": []
+}
+{
+    "room_id": "dormitorio",
+    "status": "learned_preference",
+    "time_bucket": "night",
+    "new_preference": 21,
+    "observed_brightness": 12
+}
+{
+    "room_id": "salon",
+    "status": "blocked",
+    "policy_reason": "cooldown",
+    "world": {
+        "room_id": "salon",
+        "occupied": false,
+        "occupied_confidence": 0.1,
+        "lux": 35.0,
+        "time_bucket": "night",
+        "light_state": {
+            "is_on": false,
+            "brightness": 0
+        },
+        "preferred_brightness": {
+            "morning": 60,
+            "afternoon": 70,
+            "night": 25
+        },
+        "last_manual_override_ts": null,
+        "last_action_ts": "2026-03-08T21:06:00",
+        "absence_since_ts": "2026-03-08T21:02:00",
+        "now": "2026-03-08T21:06:00"
+    }
+}
+{
+    "room_id": "dormitorio",
+    "status": "blocked",
+    "policy_reason": "manual_override_window",
+    "world": {
+        "room_id": "dormitorio",
+        "occupied": true,
+        "occupied_confidence": 0.9,
+        "lux": 5.0,
+        "time_bucket": "night",
+        "light_state": {
+            "is_on": true,
+            "brightness": 12
+        },
+        "preferred_brightness": {
+            "morning": 60,
+            "afternoon": 70,
+            "night": 21
+        },
+        "last_manual_override_ts": "2026-03-08T21:06:00",
+        "last_action_ts": "2026-03-08T21:02:00",
+        "absence_since_ts": null,
+        "now": "2026-03-08T21:06:00"
+    }
+}
+{
+    "room_id": "pasillo",
+    "status": "noop",
+    "world": {
+        "room_id": "pasillo",
+        "occupied": false,
+        "occupied_confidence": 0.1,
+        "lux": 25.0,
+        "time_bucket": "night",
+        "light_state": {
+            "is_on": false,
+            "brightness": 0
+        },
+        "preferred_brightness": {
+            "morning": 60,
+            "afternoon": 70,
+            "night": 25
+        },
+        "last_manual_override_ts": null,
+        "last_action_ts": null,
+        "absence_since_ts": null,
+        "now": "2026-03-08T21:06:00"
+    },
+    "plan": {
+        "room_id": "pasillo",
+        "decision": "do_nothing",
+        "reason": "Room is unoccupied but absence delay has not elapsed yet.",
+        "actions": []
+    },
+    "results": []
+}
+{
+    "room_id": "salon",
+    "status": "noop",
+    "world": {
+        "room_id": "salon",
+        "occupied": false,
+        "occupied_confidence": 0.1,
+        "lux": 35.0,
+        "time_bucket": "night",
+        "light_state": {
+            "is_on": false,
+            "brightness": 0
+        },
+        "preferred_brightness": {
+            "morning": 60,
+            "afternoon": 70,
+            "night": 25
+        },
+        "last_manual_override_ts": null,
+        "last_action_ts": "2026-03-08T21:06:00",
+        "absence_since_ts": "2026-03-08T21:02:00",
+        "now": "2026-03-08T21:17:00"
+    },
+    "plan": {
+        "room_id": "salon",
+        "decision": "do_nothing",
+        "reason": "Room is unoccupied but absence delay has not elapsed yet.",
+        "actions": []
+    },
+    "results": []
+}
+{
+    "room_id": "dormitorio",
+    "status": "noop",
+    "world": {
+        "room_id": "dormitorio",
+        "occupied": true,
+        "occupied_confidence": 0.9,
+        "lux": 5.0,
+        "time_bucket": "night",
+        "light_state": {
+            "is_on": true,
+            "brightness": 12
+        },
+        "preferred_brightness": {
+            "morning": 60,
+            "afternoon": 70,
+            "night": 21
+        },
+        "last_manual_override_ts": "2026-03-08T21:06:00",
+        "last_action_ts": "2026-03-08T21:02:00",
+        "absence_since_ts": null,
+        "now": "2026-03-08T21:17:00"
+    },
+    "plan": {
+        "room_id": "dormitorio",
+        "decision": "do_nothing",
+        "reason": "Current lighting already matches context.",
+        "actions": []
+    },
+    "results": []
+}
+{
+    "room_id": "pasillo",
+    "status": "noop",
+    "world": {
+        "room_id": "pasillo",
+        "occupied": false,
+        "occupied_confidence": 0.1,
+        "lux": 25.0,
+        "time_bucket": "night",
+        "light_state": {
+            "is_on": false,
+            "brightness": 0
+        },
+        "preferred_brightness": {
+            "morning": 60,
+            "afternoon": 70,
+            "night": 25
+        },
+        "last_manual_override_ts": null,
+        "last_action_ts": null,
+        "absence_since_ts": null,
+        "now": "2026-03-08T21:17:00"
+    },
+    "plan": {
+        "room_id": "pasillo",
+        "decision": "do_nothing",
+        "reason": "Room is unoccupied but absence delay has not elapsed yet.",
+        "actions": []
+    },
+    "results": []
+}
+{
+    "room_id": "salon",
+    "status": "executed",
+    "world": {
+        "room_id": "salon",
+        "occupied": true,
+        "occupied_confidence": 0.9,
+        "lux": 35.0,
+        "time_bucket": "night",
+        "light_state": {
+            "is_on": false,
+            "brightness": 0
+        },
+        "preferred_brightness": {
+            "morning": 60,
+            "afternoon": 70,
+            "night": 25
+        },
+        "last_manual_override_ts": null,
+        "last_action_ts": null,
+        "absence_since_ts": null,
+        "now": "2026-03-08T21:00:00"
+    },
+    "plan": {
+        "room_id": "salon",
+        "decision": "turn_on",
+        "reason": "Presence detected with low ambient light (35.0 lux).",
+        "actions": [
+            {
+                "tool": "set_room_lights",
+                "args": {
+                    "room_id": "salon",
+                    "on": true,
+                    "brightness": 25
+                }
+            }
+        ]
+    },
+    "results": [
+        {
+            "ok": true,
+            "room_id": "salon",
+            "results": [
+                {
+                    "ok": true,
+                    "room_id": "salon",
+                    "device_id": "light_salon_main",
+                    "state": {
+                        "is_on": true,
+                        "brightness": 25
+                    }
+                }
+            ]
+        }
+    ]
+}
+{
+    "room_id": "dormitorio",
+    "status": "noop",
+    "world": {
+        "room_id": "dormitorio",
+        "occupied": false,
+        "occupied_confidence": 0.1,
+        "lux": 60.0,
+        "time_bucket": "night",
+        "light_state": {
+            "is_on": false,
+            "brightness": 0
+        },
+        "preferred_brightness": {
+            "morning": 60,
+            "afternoon": 70,
+            "night": 21
+        },
+        "last_manual_override_ts": null,
+        "last_action_ts": null,
+        "absence_since_ts": null,
+        "now": "2026-03-08T21:00:00"
+    },
+    "plan": {
+        "room_id": "dormitorio",
+        "decision": "do_nothing",
+        "reason": "Room is unoccupied but absence delay has not elapsed yet.",
+        "actions": []
+    },
+    "results": []
+}
+{
+    "room_id": "pasillo",
+    "status": "noop",
+    "world": {
+        "room_id": "pasillo",
+        "occupied": false,
+        "occupied_confidence": 0.1,
+        "lux": 25.0,
+        "time_bucket": "night",
+        "light_state": {
+            "is_on": false,
+            "brightness": 0
+        },
+        "preferred_brightness": {
+            "morning": 60,
+            "afternoon": 70,
+            "night": 25
+        },
+        "last_manual_override_ts": null,
+        "last_action_ts": null,
+        "absence_since_ts": null,
+        "now": "2026-03-08T21:00:00"
+    },
+    "plan": {
+        "room_id": "pasillo",
+        "decision": "do_nothing",
+        "reason": "Room is unoccupied but absence delay has not elapsed yet.",
+        "actions": []
+    },
+    "results": []
+}
+{
+    "room_id": "salon",
+    "status": "noop",
+    "world": {
+        "room_id": "salon",
+        "occupied": true,
+        "occupied_confidence": 0.9,
+        "lux": 35.0,
+        "time_bucket": "night",
+        "light_state": {
+            "is_on": true,
+            "brightness": 25
+        },
+        "preferred_brightness": {
+            "morning": 60,
+            "afternoon": 70,
+            "night": 25
+        },
+        "last_manual_override_ts": null,
+        "last_action_ts": "2026-03-08T21:00:00",
+        "absence_since_ts": null,
+        "now": "2026-03-08T21:02:00"
+    },
+    "plan": {
+        "room_id": "salon",
+        "decision": "do_nothing",
+        "reason": "Current lighting already matches context.",
+        "actions": []
+    },
+    "results": []
+}
+{
+    "room_id": "dormitorio",
+    "status": "executed",
+    "world": {
+        "room_id": "dormitorio",
+        "occupied": true,
+        "occupied_confidence": 0.9,
+        "lux": 10.0,
+        "time_bucket": "night",
+        "light_state": {
+            "is_on": false,
+            "brightness": 0
+        },
+        "preferred_brightness": {
+            "morning": 60,
+            "afternoon": 70,
+            "night": 21
+        },
+        "last_manual_override_ts": null,
+        "last_action_ts": null,
+        "absence_since_ts": null,
+        "now": "2026-03-08T21:02:00"
+    },
+    "plan": {
+        "room_id": "dormitorio",
+        "decision": "turn_on",
+        "reason": "Presence detected with low ambient light (10.0 lux).",
+        "actions": [
+            {
+                "tool": "set_room_lights",
+                "args": {
+                    "room_id": "dormitorio",
+                    "on": true,
+                    "brightness": 21
+                }
+            }
+        ]
+    },
+    "results": [
+        {
+            "ok": true,
+            "room_id": "dormitorio",
+            "results": [
+                {
+                    "ok": true,
+                    "room_id": "dormitorio",
+                    "device_id": "light_bedroom_main",
+                    "state": {
+                        "is_on": true,
+                        "brightness": 21
+                    }
+                }
+            ]
+        }
+    ]
+}
+{
+    "room_id": "pasillo",
+    "status": "noop",
+    "world": {
+        "room_id": "pasillo",
+        "occupied": false,
+        "occupied_confidence": 0.1,
+        "lux": 25.0,
+        "time_bucket": "night",
+        "light_state": {
+            "is_on": false,
+            "brightness": 0
+        },
+        "preferred_brightness": {
+            "morning": 60,
+            "afternoon": 70,
+            "night": 25
+        },
+        "last_manual_override_ts": null,
+        "last_action_ts": null,
+        "absence_since_ts": null,
+        "now": "2026-03-08T21:02:00"
+    },
+    "plan": {
+        "room_id": "pasillo",
+        "decision": "do_nothing",
+        "reason": "Room is unoccupied but absence delay has not elapsed yet.",
+        "actions": []
+    },
+    "results": []
+}
+{
+    "room_id": "salon",
+    "status": "executed",
+    "world": {
+        "room_id": "salon",
+        "occupied": false,
+        "occupied_confidence": 0.1,
+        "lux": 35.0,
+        "time_bucket": "night",
+        "light_state": {
+            "is_on": true,
+            "brightness": 25
+        },
+        "preferred_brightness": {
+            "morning": 60,
+            "afternoon": 70,
+            "night": 25
+        },
+        "last_manual_override_ts": null,
+        "last_action_ts": "2026-03-08T21:00:00",
+        "absence_since_ts": "2026-03-08T21:02:00",
+        "now": "2026-03-08T21:06:00"
+    },
+    "plan": {
+        "room_id": "salon",
+        "decision": "turn_off",
+        "reason": "Room has been unoccupied for at least the configured absence window.",
+        "actions": [
+            {
+                "tool": "set_room_lights",
+                "args": {
+                    "room_id": "salon",
+                    "on": false
+                }
+            }
+        ]
+    },
+    "results": [
+        {
+            "ok": true,
+            "room_id": "salon",
+            "results": [
+                {
+                    "ok": true,
+                    "room_id": "salon",
+                    "device_id": "light_salon_main",
+                    "state": {
+                        "is_on": false,
+                        "brightness": 0
+                    }
+                }
+            ]
+        }
+    ]
+}
+{
+    "room_id": "dormitorio",
+    "status": "noop",
+    "world": {
+        "room_id": "dormitorio",
+        "occupied": true,
+        "occupied_confidence": 0.9,
+        "lux": 10.0,
+        "time_bucket": "night",
+        "light_state": {
+            "is_on": true,
+            "brightness": 21
+        },
+        "preferred_brightness": {
+            "morning": 60,
+            "afternoon": 70,
+            "night": 21
+        },
+        "last_manual_override_ts": null,
+        "last_action_ts": "2026-03-08T21:02:00",
+        "absence_since_ts": null,
+        "now": "2026-03-08T21:06:00"
+    },
+    "plan": {
+        "room_id": "dormitorio",
+        "decision": "do_nothing",
+        "reason": "Current lighting already matches context.",
+        "actions": []
+    },
+    "results": []
+}
+{
+    "room_id": "pasillo",
+    "status": "noop",
+    "world": {
+        "room_id": "pasillo",
+        "occupied": false,
+        "occupied_confidence": 0.1,
+        "lux": 25.0,
+        "time_bucket": "night",
+        "light_state": {
+            "is_on": false,
+            "brightness": 0
+        },
+        "preferred_brightness": {
+            "morning": 60,
+            "afternoon": 70,
+            "night": 25
+        },
+        "last_manual_override_ts": null,
+        "last_action_ts": null,
+        "absence_since_ts": null,
+        "now": "2026-03-08T21:06:00"
+    },
+    "plan": {
+        "room_id": "pasillo",
+        "decision": "do_nothing",
+        "reason": "Room is unoccupied but absence delay has not elapsed yet.",
+        "actions": []
+    },
+    "results": []
+}
+{
+    "room_id": "dormitorio",
+    "status": "learned_preference",
+    "time_bucket": "night",
+    "new_preference": 18,
+    "observed_brightness": 12
+}
+{
+    "room_id": "salon",
+    "status": "blocked",
+    "policy_reason": "cooldown",
+    "world": {
+        "room_id": "salon",
+        "occupied": false,
+        "occupied_confidence": 0.1,
+        "lux": 35.0,
+        "time_bucket": "night",
+        "light_state": {
+            "is_on": false,
+            "brightness": 0
+        },
+        "preferred_brightness": {
+            "morning": 60,
+            "afternoon": 70,
+            "night": 25
+        },
+        "last_manual_override_ts": null,
+        "last_action_ts": "2026-03-08T21:06:00",
+        "absence_since_ts": "2026-03-08T21:02:00",
+        "now": "2026-03-08T21:06:00"
+    }
+}
+{
+    "room_id": "dormitorio",
+    "status": "blocked",
+    "policy_reason": "manual_override_window",
+    "world": {
+        "room_id": "dormitorio",
+        "occupied": true,
+        "occupied_confidence": 0.9,
+        "lux": 5.0,
+        "time_bucket": "night",
+        "light_state": {
+            "is_on": true,
+            "brightness": 12
+        },
+        "preferred_brightness": {
+            "morning": 60,
+            "afternoon": 70,
+            "night": 18
+        },
+        "last_manual_override_ts": "2026-03-08T21:06:00",
+        "last_action_ts": "2026-03-08T21:02:00",
+        "absence_since_ts": null,
+        "now": "2026-03-08T21:06:00"
+    }
+}
+{
+    "room_id": "pasillo",
+    "status": "noop",
+    "world": {
+        "room_id": "pasillo",
+        "occupied": false,
+        "occupied_confidence": 0.1,
+        "lux": 25.0,
+        "time_bucket": "night",
+        "light_state": {
+            "is_on": false,
+            "brightness": 0
+        },
+        "preferred_brightness": {
+            "morning": 60,
+            "afternoon": 70,
+            "night": 25
+        },
+        "last_manual_override_ts": null,
+        "last_action_ts": null,
+        "absence_since_ts": null,
+        "now": "2026-03-08T21:06:00"
+    },
+    "plan": {
+        "room_id": "pasillo",
+        "decision": "do_nothing",
+        "reason": "Room is unoccupied but absence delay has not elapsed yet.",
+        "actions": []
+    },
+    "results": []
+}
+{
+    "room_id": "salon",
+    "status": "noop",
+    "world": {
+        "room_id": "salon",
+        "occupied": false,
+        "occupied_confidence": 0.1,
+        "lux": 35.0,
+        "time_bucket": "night",
+        "light_state": {
+            "is_on": false,
+            "brightness": 0
+        },
+        "preferred_brightness": {
+            "morning": 60,
+            "afternoon": 70,
+            "night": 25
+        },
+        "last_manual_override_ts": null,
+        "last_action_ts": "2026-03-08T21:06:00",
+        "absence_since_ts": "2026-03-08T21:02:00",
+        "now": "2026-03-08T21:17:00"
+    },
+    "plan": {
+        "room_id": "salon",
+        "decision": "do_nothing",
+        "reason": "Room is unoccupied but absence delay has not elapsed yet.",
+        "actions": []
+    },
+    "results": []
+}
+{
+    "room_id": "dormitorio",
+    "status": "noop",
+    "world": {
+        "room_id": "dormitorio",
+        "occupied": true,
+        "occupied_confidence": 0.9,
+        "lux": 5.0,
+        "time_bucket": "night",
+        "light_state": {
+            "is_on": true,
+            "brightness": 12
+        },
+        "preferred_brightness": {
+            "morning": 60,
+            "afternoon": 70,
+            "night": 18
+        },
+        "last_manual_override_ts": "2026-03-08T21:06:00",
+        "last_action_ts": "2026-03-08T21:02:00",
+        "absence_since_ts": null,
+        "now": "2026-03-08T21:17:00"
+    },
+    "plan": {
+        "room_id": "dormitorio",
+        "decision": "do_nothing",
+        "reason": "Current lighting already matches context.",
+        "actions": []
+    },
+    "results": []
+}
+{
+    "room_id": "pasillo",
+    "status": "noop",
+    "world": {
+        "room_id": "pasillo",
+        "occupied": false,
+        "occupied_confidence": 0.1,
+        "lux": 25.0,
+        "time_bucket": "night",
+        "light_state": {
+            "is_on": false,
+            "brightness": 0
+        },
+        "preferred_brightness": {
+            "morning": 60,
+            "afternoon": 70,
+            "night": 25
+        },
+        "last_manual_override_ts": null,
+        "last_action_ts": null,
+        "absence_since_ts": null,
+        "now": "2026-03-08T21:17:00"
+    },
+    "plan": {
+        "room_id": "pasillo",
+        "decision": "do_nothing",
+        "reason": "Room is unoccupied but absence delay has not elapsed yet.",
+        "actions": []
+    },
+    "results": []
+}

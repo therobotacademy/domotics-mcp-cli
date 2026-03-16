@@ -1,0 +1,3 @@
+{"room_id": "salon", "status": "executed", "decision": "turn_on"}
+{"room_id": "dormitorio", "status": "noop", "decision": "do_nothing"}
+{"room_id": "pasillo", "status": "blocked", "decision": null}
